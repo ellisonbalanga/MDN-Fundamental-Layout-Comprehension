@@ -1,6 +1,7 @@
 # MDN-Fundamental-Layout-Comprehension
 Project from MDN: "Fundamental Layout Comprehension
-This project is from MDN webdocs. (https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
+This project is from MDN webdocs. 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
 My goals for this project are to complete the assignment successfully and practice using github.
 
 Update: Added initial files from project source:
@@ -11,11 +12,9 @@ Update: Added initial files from project source:
 Update:
 First change is the nav bar.
 The nav bar is currently in flow arranged on top of each other vertically.
-I will create a flex container as the bar.
-Then center the items on the nav bar as shown in the picture.
 
-Actually needed to nav ul because that is the proper container for the nav items.
-so i added
+Needed to sset nav ul as flex item, because that is the container for the nav items.
+so i added:
 nav ul {
 	display: flex;
 	justify-content: space-between;
@@ -33,10 +32,9 @@ Eyeballing the row it looks like 9 units for the left side and 3 on the other. S
 
 Added some margin adjustments to image to create space.
 
-Now next step is to get the aside to display correctly. i tried flex at first, but that didn't work because i wanted columns so i went with another grid.
+Now next step is to get the aside to display correctly. I tried flex at first, but that didn't work because i wanted columns so i went with another grid.
 
 finally I add grid-gap to the phots to create separation.
 
 Page now looks like example page.
 
-TODO edit documentation in a more readable format.  
